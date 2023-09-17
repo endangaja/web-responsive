@@ -24,7 +24,7 @@ a {
     width: 40px;
     height: 40px;
     position: fixed;
-    right: 7%;
+    right: 3%;
     bottom: 5%;
     display: flex;
     justify-content: center;
@@ -490,6 +490,9 @@ footer .kanan a:hover {
 }
 
 @media (max-width: 768px) {
+    .tombolScroll {
+        right: 7%;
+    }
     .icons {
         display: inline-flex;
     }
