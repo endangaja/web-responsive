@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }
 
 body {
@@ -33,6 +34,7 @@ a {
     border-radius: 999px;
     box-shadow: 0 0 5px #858585;
     cursor: pointer;
+	z-index: 100;
 }
 /* HEADER */
 
@@ -481,6 +483,10 @@ footer .kanan a:hover {
     transition: .7s ease;
 }
 
+/* nyobain test navbar bismillah */
+.navbar a:active {
+    color: red !important;
+}
 /* BREAKPOINTS */
 
 @media (max-width: 992px) {
